@@ -1,0 +1,6 @@
+1-está limitado a solo mostrar como maximo 6 productos en el menu y minimo 1, igual al carrito entre 1 y 6
+2-no estan vinculadas las imagenes(pend buscar)
+3-hay que enlazar los datos finales del carrito con la facturación
+4-actualizar los artuculos en el sql
+
+si no entienden el código o no saben usarlo preguntan :v
