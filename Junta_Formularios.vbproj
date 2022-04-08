@@ -73,10 +73,40 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Form_16.designer.vb">
+      <DependentUpon>Form_16.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="Form_16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_17.designer.vb">
+      <DependentUpon>Form_17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_18.designer.vb">
+      <DependentUpon>Form_18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_18.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_19.designer.vb">
+      <DependentUpon>Form_19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_19.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_20.designer.vb">
+      <DependentUpon>Form_20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_15.designer.vb">
+      <DependentUpon>Form_15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_15.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_10.designer.vb">
@@ -161,7 +191,9 @@
     <Compile Include="Form_1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Module.vb" />
     <Compile Include="Module1.vb" />
+    <Compile Include="Module2.vb" />
     <Compile Include="Module_2.vb" />
     <Compile Include="Module_1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -181,8 +213,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Form_16.resx">
+      <DependentUpon>Form_16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_17.resx">
+      <DependentUpon>Form_17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_18.resx">
+      <DependentUpon>Form_18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_19.resx">
+      <DependentUpon>Form_19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_20.resx">
+      <DependentUpon>Form_20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_15.resx">
+      <DependentUpon>Form_15.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_10.resx">
       <DependentUpon>Form_10.vb</DependentUpon>
@@ -274,6 +321,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="leer.txt" />
+    <None Include="Resources\descarga %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

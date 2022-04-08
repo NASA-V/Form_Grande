@@ -2,7 +2,7 @@
 Imports System.Data.SqlClient
 Imports Microsoft.Exchange.WebServices.Data
 
-Public Class Form2
+Public Class Form_17
 
     Public Sub Actualizar()
 

@@ -1,6 +1,6 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
-Public Class Form3
+Public Class Form_18
     Private Sub ActualizarContraseña()
 
         Dim actualiza As String = "update  Usuario  Set  Contraseña='" & TxtContraN.Text & "' where Contraseña = '" & TxtContraActual.Text & "'"

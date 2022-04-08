@@ -8,7 +8,7 @@ Imports System.Text
 Imports System.Data.OleDb
 Imports System.IO
 Imports System.Drawing.Bitmap
-Public Class form1
+Public Class Form_15
     Public Catalogo As String
     Public cnn As New SqlConnection
     Public boton(99) As Button

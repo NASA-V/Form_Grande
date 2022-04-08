@@ -7,7 +7,9 @@ Module Module2
 
     Sub enlace()
         Try
-            conexion.ConnectionString = "Data Source=LAPTOP-MF64POFJ;Initial Catalog=Aplicacion_Productos;Integrated Security=True"
+            conexion.ConnectionString = "Data Source=DMC;Initial Catalog=Aplicacion_Productos;Integrated Security=True"
+            'string de conexion de reichel "Data Source=DESKTOP-1NNH67H;Initial Catalog=Aplicacion_Productos;Integrated Security=True"
+            'string de conexion de diego Data Source=DMC;Initial Catalog=Aplicacion_Productos;Integrated Security=True
             conexion.Open()
             estado = "Conectado"
         Catch ex As Exception

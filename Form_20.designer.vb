@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form5
+Partial Class Form_20
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -33,28 +33,31 @@ Partial Class Form5
         'TxtContraseña
         '
         Me.TxtContraseña.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TxtContraseña.Location = New System.Drawing.Point(0, 134)
+        Me.TxtContraseña.Location = New System.Drawing.Point(0, 88)
+        Me.TxtContraseña.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TxtContraseña.Multiline = True
         Me.TxtContraseña.Name = "TxtContraseña"
-        Me.TxtContraseña.Size = New System.Drawing.Size(643, 40)
+        Me.TxtContraseña.Size = New System.Drawing.Size(527, 27)
         Me.TxtContraseña.TabIndex = 31
         '
         'Label3
         '
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(0, 91)
+        Me.Label3.Location = New System.Drawing.Point(0, 60)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(643, 43)
+        Me.Label3.Size = New System.Drawing.Size(527, 28)
         Me.Label3.TabIndex = 30
         Me.Label3.Text = "Contraseña"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(368, 205)
+        Me.Button2.Location = New System.Drawing.Point(245, 133)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(154, 48)
+        Me.Button2.Size = New System.Drawing.Size(103, 31)
         Me.Button2.TabIndex = 29
         Me.Button2.Text = "Registrarse"
         Me.Button2.UseVisualStyleBackColor = True
@@ -62,9 +65,10 @@ Partial Class Form5
         'Button1
         '
         Me.Button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Button1.Location = New System.Drawing.Point(138, 205)
+        Me.Button1.Location = New System.Drawing.Point(92, 133)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(124, 48)
+        Me.Button1.Size = New System.Drawing.Size(83, 31)
         Me.Button1.TabIndex = 24
         Me.Button1.Text = "cancelar"
         Me.Button1.UseVisualStyleBackColor = True
@@ -72,10 +76,11 @@ Partial Class Form5
         'TxtUsuario
         '
         Me.TxtUsuario.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TxtUsuario.Location = New System.Drawing.Point(0, 51)
+        Me.TxtUsuario.Location = New System.Drawing.Point(0, 33)
+        Me.TxtUsuario.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TxtUsuario.Multiline = True
         Me.TxtUsuario.Name = "TxtUsuario"
-        Me.TxtUsuario.Size = New System.Drawing.Size(643, 40)
+        Me.TxtUsuario.Size = New System.Drawing.Size(527, 27)
         Me.TxtUsuario.TabIndex = 26
         '
         'Label1
@@ -83,25 +88,27 @@ Partial Class Form5
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(643, 51)
+        Me.Label1.Size = New System.Drawing.Size(527, 33)
         Me.Label1.TabIndex = 25
         Me.Label1.Text = "Nombre de usuario"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Label1.UseWaitCursor = True
         '
-        'Form5
+        'Form_20
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(643, 279)
+        Me.ClientSize = New System.Drawing.Size(527, 314)
         Me.Controls.Add(Me.TxtContraseña)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TxtUsuario)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form5"
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Name = "Form_20"
         Me.Text = "Form5"
         Me.ResumeLayout(False)
         Me.PerformLayout()

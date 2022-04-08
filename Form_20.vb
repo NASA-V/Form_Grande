@@ -1,7 +1,7 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
 
-Public Class Form5
+Public Class Form_20
 
     Public Sub registro()
 

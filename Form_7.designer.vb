@@ -53,9 +53,10 @@ Partial Class Form_7
         Me.SubMenu.Controls.Add(Me.Panel3)
         Me.SubMenu.Controls.Add(Me.Button3)
         Me.SubMenu.Dock = System.Windows.Forms.DockStyle.Left
-        Me.SubMenu.Location = New System.Drawing.Point(0, 62)
+        Me.SubMenu.Location = New System.Drawing.Point(0, 50)
+        Me.SubMenu.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.SubMenu.Name = "SubMenu"
-        Me.SubMenu.Size = New System.Drawing.Size(191, 666)
+        Me.SubMenu.Size = New System.Drawing.Size(143, 590)
         Me.SubMenu.TabIndex = 4
         '
         'Panel3
@@ -65,9 +66,10 @@ Partial Class Form_7
         Me.Panel3.Controls.Add(Me.Button4)
         Me.Panel3.Controls.Add(Me.Button2)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel3.Location = New System.Drawing.Point(0, 62)
+        Me.Panel3.Location = New System.Drawing.Point(0, 50)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(191, 157)
+        Me.Panel3.Size = New System.Drawing.Size(143, 128)
         Me.Panel3.TabIndex = 5
         '
         'Button6
@@ -79,10 +81,11 @@ Partial Class Form_7
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Snow
         Me.Button6.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button6.Location = New System.Drawing.Point(0, 117)
+        Me.Button6.Location = New System.Drawing.Point(0, 96)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button6.Name = "Button6"
-        Me.Button6.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button6.Size = New System.Drawing.Size(191, 39)
+        Me.Button6.Padding = New System.Windows.Forms.Padding(26, 0, 0, 0)
+        Me.Button6.Size = New System.Drawing.Size(143, 32)
         Me.Button6.TabIndex = 3
         Me.Button6.Text = ";3"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -97,10 +100,11 @@ Partial Class Form_7
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Snow
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button5.Location = New System.Drawing.Point(0, 78)
+        Me.Button5.Location = New System.Drawing.Point(0, 64)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button5.Size = New System.Drawing.Size(191, 39)
+        Me.Button5.Padding = New System.Windows.Forms.Padding(26, 0, 0, 0)
+        Me.Button5.Size = New System.Drawing.Size(143, 32)
         Me.Button5.TabIndex = 2
         Me.Button5.Text = "._."
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -115,10 +119,11 @@ Partial Class Form_7
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Snow
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button4.Location = New System.Drawing.Point(0, 39)
+        Me.Button4.Location = New System.Drawing.Point(0, 32)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button4.Size = New System.Drawing.Size(191, 39)
+        Me.Button4.Padding = New System.Windows.Forms.Padding(26, 0, 0, 0)
+        Me.Button4.Size = New System.Drawing.Size(143, 32)
         Me.Button4.TabIndex = 1
         Me.Button4.Text = ":D"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -134,9 +139,10 @@ Partial Class Form_7
         Me.Button2.ForeColor = System.Drawing.Color.Snow
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
         Me.Button2.Location = New System.Drawing.Point(0, 0)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Padding = New System.Windows.Forms.Padding(35, 0, 0, 0)
-        Me.Button2.Size = New System.Drawing.Size(191, 39)
+        Me.Button2.Padding = New System.Windows.Forms.Padding(26, 0, 0, 0)
+        Me.Button2.Size = New System.Drawing.Size(143, 32)
         Me.Button2.TabIndex = 0
         Me.Button2.Text = "Leche"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -147,9 +153,10 @@ Partial Class Form_7
         Me.Button3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(0, 0)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
-        Me.Button3.Size = New System.Drawing.Size(191, 62)
+        Me.Button3.Padding = New System.Windows.Forms.Padding(8, 0, 0, 0)
+        Me.Button3.Size = New System.Drawing.Size(143, 50)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Categorías"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -157,9 +164,10 @@ Partial Class Form_7
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(1277, 236)
+        Me.Button17.Location = New System.Drawing.Point(958, 192)
+        Me.Button17.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(119, 33)
+        Me.Button17.Size = New System.Drawing.Size(89, 27)
         Me.Button17.TabIndex = 54
         Me.Button17.Text = "Button17"
         Me.Button17.UseVisualStyleBackColor = True
@@ -173,33 +181,37 @@ Partial Class Form_7
         Me.PanelLogo.BackgroundImage = CType(resources.GetObject("PanelLogo.BackgroundImage"), System.Drawing.Image)
         Me.PanelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PanelLogo.Dock = System.Windows.Forms.DockStyle.Right
-        Me.PanelLogo.Location = New System.Drawing.Point(1237, 0)
+        Me.PanelLogo.Location = New System.Drawing.Point(1011, 0)
+        Me.PanelLogo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PanelLogo.Name = "PanelLogo"
-        Me.PanelLogo.Size = New System.Drawing.Size(159, 62)
+        Me.PanelLogo.Size = New System.Drawing.Size(119, 50)
         Me.PanelLogo.TabIndex = 0
         '
         'txtbusqueda
         '
-        Me.txtbusqueda.Location = New System.Drawing.Point(216, 12)
+        Me.txtbusqueda.Location = New System.Drawing.Point(162, 10)
+        Me.txtbusqueda.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtbusqueda.Multiline = True
         Me.txtbusqueda.Name = "txtbusqueda"
-        Me.txtbusqueda.Size = New System.Drawing.Size(498, 34)
+        Me.txtbusqueda.Size = New System.Drawing.Size(374, 28)
         Me.txtbusqueda.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(726, 23)
+        Me.Button1.Location = New System.Drawing.Point(544, 19)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(79, 34)
+        Me.Button1.Size = New System.Drawing.Size(59, 28)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Buscar"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Panel2
         '
-        Me.Panel2.Location = New System.Drawing.Point(3, 74)
+        Me.Panel2.Location = New System.Drawing.Point(2, 60)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(181, 79)
+        Me.Panel2.Size = New System.Drawing.Size(136, 64)
         Me.Panel2.TabIndex = 4
         '
         'Panel1
@@ -211,51 +223,56 @@ Partial Class Form_7
         Me.Panel1.Controls.Add(Me.PanelLogo)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1396, 62)
+        Me.Panel1.Size = New System.Drawing.Size(1130, 50)
         Me.Panel1.TabIndex = 3
         '
         'txt1
         '
-        Me.txt1.Location = New System.Drawing.Point(816, 171)
+        Me.txt1.Location = New System.Drawing.Point(612, 139)
+        Me.txt1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txt1.Multiline = True
         Me.txt1.Name = "txt1"
-        Me.txt1.Size = New System.Drawing.Size(190, 22)
+        Me.txt1.Size = New System.Drawing.Size(144, 19)
         Me.txt1.TabIndex = 69
         '
         'totalcarr
         '
-        Me.totalcarr.Location = New System.Drawing.Point(931, 62)
+        Me.totalcarr.Location = New System.Drawing.Point(698, 50)
+        Me.totalcarr.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.totalcarr.Name = "totalcarr"
-        Me.totalcarr.Size = New System.Drawing.Size(75, 23)
+        Me.totalcarr.Size = New System.Drawing.Size(56, 19)
         Me.totalcarr.TabIndex = 70
         Me.totalcarr.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(955, 241)
+        Me.Label1.Location = New System.Drawing.Point(716, 196)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
         Me.Label1.TabIndex = 71
         Me.Label1.Text = "Label1"
         '
         'BindingSource1
         '
         '
-        'Form3
+        'Form_7
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(1020, 749)
+        Me.ClientSize = New System.Drawing.Size(1130, 640)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.totalcarr)
         Me.Controls.Add(Me.txt1)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.SubMenu)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Form3"
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Name = "Form_7"
         Me.Text = "Form3"
         Me.SubMenu.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)

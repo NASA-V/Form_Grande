@@ -1,6 +1,6 @@
 ﻿Imports System.Data.Sql
 Imports System.Data.SqlClient
-Public Class Form4
+Public Class Form_19
 
     Private Sub login(Usuario As String, Contraseña As String)
 
@@ -16,7 +16,7 @@ Public Class Form4
 
         If tabla.Rows.Count = 1 Then
             Me.Hide()
-            Form1.Show()
+            Form_16.Show()
         Else
             MsgBox("El usuario y/o la contraseña no existe")
 
@@ -29,7 +29,7 @@ Public Class Form4
 
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Form5.Show()
+        Form_20.Show()
 
     End Sub
 
