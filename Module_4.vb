@@ -1,7 +1,7 @@
 ﻿Imports System.Data.Sql
 Imports System.Data.SqlClient
 
-Module Module1
+Module Module_4
     Public conexion As New SqlConnection
     Public comando As New SqlCommand
     Public reader As SqlDataReader

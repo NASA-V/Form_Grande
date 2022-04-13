@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
-Module Module2
+Module Module_3
     Public conexion As New SqlConnection
     Public comando As New SqlCommand
     Public estado As String
