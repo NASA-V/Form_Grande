@@ -73,6 +73,43 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="carritomenu.designer.vb">
+      <DependentUpon>carritomenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carritomenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion.designer.vb">
+      <DependentUpon>Facturacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menub.designer.vb">
+      <DependentUpon>menub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Registrar.designer.vb">
+      <DependentUpon>Registrar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Reichel.designer.vb">
       <DependentUpon>Reichel.vb</DependentUpon>
     </Compile>
@@ -107,12 +144,6 @@
       <DependentUpon>Form_20.vb</DependentUpon>
     </Compile>
     <Compile Include="Form_20.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_15.designer.vb">
-      <DependentUpon>Form_15.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_15.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_10.designer.vb">
@@ -191,15 +222,9 @@
       <DependentUpon>Form_2.vb</DependentUpon>
     </Compile>
     <Compile Include="Form_2.vb" />
-    <Compile Include="Form_1.designer.vb">
-      <DependentUpon>Form_1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_1.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Module_4.vb" />
-    <Compile Include="Module1.vb" />
-    <Compile Include="Module2.vb" />
+    <Compile Include="Module_5.vb" />
+    <Compile Include="Module_6.vb" />
     <Compile Include="Module_3.vb" />
     <Compile Include="Module_2.vb" />
     <Compile Include="Module_1.vb" />
@@ -220,6 +245,24 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="carritomenu.resx">
+      <DependentUpon>carritomenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion.resx">
+      <DependentUpon>Facturacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menub.resx">
+      <DependentUpon>menub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar.resx">
+      <DependentUpon>Registrar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reichel.resx">
       <DependentUpon>Reichel.vb</DependentUpon>
     </EmbeddedResource>
@@ -237,9 +280,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_20.resx">
       <DependentUpon>Form_20.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_15.resx">
-      <DependentUpon>Form_15.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_10.resx">
       <DependentUpon>Form_10.vb</DependentUpon>
@@ -279,9 +319,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_2.resx">
       <DependentUpon>Form_2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_1.resx">
-      <DependentUpon>Form_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
